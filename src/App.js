@@ -1,4 +1,5 @@
 import "./App.css"
+import "./components/FontawsomeIcons/Index"
 import Dashboard from "./pages/Dashboard";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
