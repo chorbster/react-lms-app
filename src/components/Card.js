@@ -1,19 +1,13 @@
-
-
-const Dashboard = () => {
+const Card = () => {
     return ( 
-        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
-           <div class="flex">
-               <span class="icon">
-                    <p>test
-                </p></span>
-                <div>
-                    <p class="mb-0"><strong>Total Students</strong></p>
-                    <h3 class="mb-0">5220</h3>
-                </div>
-            </div>
-        </div>
+       <div className="container">
+           <div className="row">
+               <div className="col-md-3">dasdasd</div>
+               <div className="col-md-3">fghfghfg</div>
+               <div className="col-md-3">sdasds</div>
+           </div>
+       </div>
      );
 }
- 
-export default Dashboard;
+
+export default Card;

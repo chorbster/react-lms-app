@@ -1,9 +1,17 @@
 import "./App.css"
-import Dashboard from './Dashboard.js';
+import Dashboard from "./pages/Dashboard";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return <div className="App">
-     <Dashboard />
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route exact path="/" element={<Dashboard/>} />
+          </Routes>
+        </BrowserRouter>
+      </>
   </div>
 }
 
