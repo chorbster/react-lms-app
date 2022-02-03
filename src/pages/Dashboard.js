@@ -1,11 +1,12 @@
-import Card from "../components/Card";
+import Card from "../components/Card"
+import Layout from "../components/Layout"
 
 const Dashboard = () => {
-    return ( 
-        <div className="container">
-             <Card />
-        </div>
-     );
+  return (
+    <Layout>
+      <Card />
+    </Layout>
+  )
 }
- 
-export default Dashboard;
+
+export default Dashboard
